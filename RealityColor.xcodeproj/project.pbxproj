@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F8CE9559555F7A61A8E4770 /* libPods-colorful.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CCB32176ED6F0B855FC019 /* libPods-colorful.a */; };
+		9B01606A2212D859005DE6E6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0160692212D859005DE6E6 /* SystemConfiguration.framework */; };
+		9B01606C2212D862005DE6E6 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B01606B2212D862005DE6E6 /* Security.framework */; };
+		9B01606E2212D871005DE6E6 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B01606D2212D871005DE6E6 /* libz.tbd */; };
+		9B0160702212D87D005DE6E6 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B01606F2212D87D005DE6E6 /* libc++.tbd */; };
+		9B055D1E2031852800BFB59F /* HRHSVColorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B055D102031852800BFB59F /* HRHSVColorUtil.m */; };
+		9B055D1F2031852800BFB59F /* HRColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B055D122031852800BFB59F /* HRColorPickerView.m */; };
+		9B055D202031852800BFB59F /* HRBrightnessCursor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B055D142031852800BFB59F /* HRBrightnessCursor.m */; };
+		9B055D212031852800BFB59F /* HRColorInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B055D152031852800BFB59F /* HRColorInfoView.m */; };
+		9B055D222031852800BFB59F /* HRColorCursor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B055D162031852800BFB59F /* HRColorCursor.m */; };
+		9B055D232031852800BFB59F /* HRColorMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B055D172031852800BFB59F /* HRColorMapView.m */; };
+		9B055D242031852800BFB59F /* HRBrightnessSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B055D182031852800BFB59F /* HRBrightnessSlider.m */; };
+		9B055D252031852800BFB59F /* UIImage+CoreGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B055D1B2031852800BFB59F /* UIImage+CoreGraphics.m */; };
+		9B055D29203186B000BFB59F /* DBColorNames.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B055D28203186B000BFB59F /* DBColorNames.m */; };
+		9B055D2C20318FD400BFB59F /* UIViewController+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B055D2B20318FD400BFB59F /* UIViewController+Helper.m */; };
+		9B1574EE1CC8AB690064B8A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B1574ED1CC8AB690064B8A5 /* main.m */; };
+		9B1574F11CC8AB690064B8A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B1574F01CC8AB690064B8A5 /* AppDelegate.m */; };
+		9B1574F71CC8AB690064B8A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B1574F51CC8AB690064B8A5 /* Main.storyboard */; };
+		9B1574F91CC8AB690064B8A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B1574F81CC8AB690064B8A5 /* Assets.xcassets */; };
+		9B1574FC1CC8AB690064B8A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B1574FA1CC8AB690064B8A5 /* LaunchScreen.storyboard */; };
+		9B1575221CC8AF650064B8A5 /* UIColor+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B15751F1CC8AF650064B8A5 /* UIColor+HexString.m */; };
+		9B1575231CC8AF650064B8A5 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B1575211CC8AF650064B8A5 /* UIView+Extension.m */; };
+		9B15752D1CC8CBE10064B8A5 /* MyColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B15752C1CC8CBE10064B8A5 /* MyColorPickerView.m */; };
+		9B1575301CC9F4970064B8A5 /* ColorfulBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B15752F1CC9F4970064B8A5 /* ColorfulBoardViewController.m */; };
+		9B1575331CC9F4F20064B8A5 /* ColorMathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B1575321CC9F4F20064B8A5 /* ColorMathViewController.m */; };
+		9B2BB5501F493AF3002E6F5E /* ColorPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2BB54F1F493AF3002E6F5E /* ColorPreviewViewController.m */; };
+		9B2ED78E1CE9C27800BE2C71 /* UIImage+PixelColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B2ED78D1CE9C27800BE2C71 /* UIImage+PixelColor.m */; };
+		9B53BA321D12A58700DA78B9 /* ZoomImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B53BA311D12A58700DA78B9 /* ZoomImageViewController.m */; };
+		9B57F8DA1F4962A700FDBBBD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B57F8DC1F4962A700FDBBBD /* InfoPlist.strings */; };
+		9B6B1C6A1CDC90760013BA9E /* CameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6B1C691CDC90760013BA9E /* CameraView.m */; };
+		9B7747AF1CD85B8200416BE3 /* CameraCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7747AE1CD85B8200416BE3 /* CameraCenterViewController.m */; };
+		9B7747C61CD8A40200416BE3 /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B7747C51CD8A40200416BE3 /* CircleView.m */; };
+		9B8079AB1D07D649007260A3 /* UITextField+textRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8079AA1D07D649007260A3 /* UITextField+textRange.m */; };
+		9BAC02361D0148E5002D56AB /* RadialLayer-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9BAC02351D0148E5002D56AB /* RadialLayer-Info.plist */; };
+		9BAC02391D016648002D56AB /* UITabBarItem+CustomBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAC02381D016648002D56AB /* UITabBarItem+CustomBadge.m */; };
+		9BAC023C1D019122002D56AB /* ColorMathDetailCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BAC023B1D019122002D56AB /* ColorMathDetailCellView.m */; };
+		9BB5358D1CE584A800419119 /* tabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB5358C1CE584A800419119 /* tabBarViewController.m */; };
+		9BB535901CE5A85A00419119 /* HexTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB5358F1CE5A85A00419119 /* HexTableViewController.m */; };
+		9BB535931CE5AC9D00419119 /* HexTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB535921CE5AC9D00419119 /* HexTableViewCell.m */; };
+		9BB535961CE5DC7C00419119 /* PublicMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB535951CE5DC7C00419119 /* PublicMethod.m */; };
+		9BC1D5401D224B1A00EF2958 /* PixImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC1D53F1D224B1A00EF2958 /* PixImageViewController.m */; };
+		9BC1D5441D225BB300EF2958 /* blur_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9BC1D5431D225BB300EF2958 /* blur_image.jpg */; };
+		9BC1D5471D225C9D00EF2958 /* MagnifierView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC1D5461D225C9D00EF2958 /* MagnifierView.m */; };
+		9BC1D54A1D22659700EF2958 /* UIView+ColorOfPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC1D5491D22659700EF2958 /* UIView+ColorOfPoint.m */; };
+		9BDF15D223CF0B7700A50B70 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BDF15D123CF0B7700A50B70 /* ExternalAccessory.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		39CCB32176ED6F0B855FC019 /* libPods-colorful.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-colorful.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50D203B6D7DED94C7817D9A2 /* Pods-colorful.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-colorful.release.xcconfig"; path = "Pods/Target Support Files/Pods-colorful/Pods-colorful.release.xcconfig"; sourceTree = "<group>"; };
+		9B0160692212D859005DE6E6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9B01606B2212D862005DE6E6 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		9B01606D2212D871005DE6E6 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		9B01606F2212D87D005DE6E6 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		9B055D0E2031852800BFB59F /* HRColorMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorMapView.h; sourceTree = "<group>"; };
+		9B055D0F2031852800BFB59F /* HRColorCursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorCursor.h; sourceTree = "<group>"; };
+		9B055D102031852800BFB59F /* HRHSVColorUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRHSVColorUtil.m; sourceTree = "<group>"; };
+		9B055D112031852800BFB59F /* HRBrightnessSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRBrightnessSlider.h; sourceTree = "<group>"; };
+		9B055D122031852800BFB59F /* HRColorPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorPickerView.m; sourceTree = "<group>"; };
+		9B055D132031852800BFB59F /* UIImage+CoreGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CoreGraphics.h"; sourceTree = "<group>"; };
+		9B055D142031852800BFB59F /* HRBrightnessCursor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRBrightnessCursor.m; sourceTree = "<group>"; };
+		9B055D152031852800BFB59F /* HRColorInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorInfoView.m; sourceTree = "<group>"; };
+		9B055D162031852800BFB59F /* HRColorCursor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorCursor.m; sourceTree = "<group>"; };
+		9B055D172031852800BFB59F /* HRColorMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorMapView.m; sourceTree = "<group>"; };
+		9B055D182031852800BFB59F /* HRBrightnessSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRBrightnessSlider.m; sourceTree = "<group>"; };
+		9B055D192031852800BFB59F /* HRHSVColorUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRHSVColorUtil.h; sourceTree = "<group>"; };
+		9B055D1A2031852800BFB59F /* HRBrightnessCursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRBrightnessCursor.h; sourceTree = "<group>"; };
+		9B055D1B2031852800BFB59F /* UIImage+CoreGraphics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CoreGraphics.m"; sourceTree = "<group>"; };
+		9B055D1C2031852800BFB59F /* HRColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorPickerView.h; sourceTree = "<group>"; };
+		9B055D1D2031852800BFB59F /* HRColorInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorInfoView.h; sourceTree = "<group>"; };
+		9B055D27203186B000BFB59F /* DBColorNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBColorNames.h; sourceTree = "<group>"; };
+		9B055D28203186B000BFB59F /* DBColorNames.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBColorNames.m; sourceTree = "<group>"; };
+		9B055D2A20318FD400BFB59F /* UIViewController+Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Helper.h"; sourceTree = "<group>"; };
+		9B055D2B20318FD400BFB59F /* UIViewController+Helper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Helper.m"; sourceTree = "<group>"; };
+		9B1574E91CC8AB690064B8A5 /* Reality Color.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reality Color.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B1574ED1CC8AB690064B8A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B1574EF1CC8AB690064B8A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9B1574F01CC8AB690064B8A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9B1574F61CC8AB690064B8A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B1574F81CC8AB690064B8A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B1574FB1CC8AB690064B8A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B1574FD1CC8AB690064B8A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B15751E1CC8AF650064B8A5 /* UIColor+HexString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexString.h"; sourceTree = "<group>"; };
+		9B15751F1CC8AF650064B8A5 /* UIColor+HexString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexString.m"; sourceTree = "<group>"; };
+		9B1575201CC8AF650064B8A5 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		9B1575211CC8AF650064B8A5 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		9B1575241CC8B1290064B8A5 /* Colorful.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Colorful.pch; path = Colorful/Colorful.pch; sourceTree = SOURCE_ROOT; };
+		9B1575261CC8B4880064B8A5 /* APPHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPHeader.h; sourceTree = "<group>"; };
+		9B1575271CC8B4880064B8A5 /* GTCommontHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTCommontHeader.h; sourceTree = "<group>"; };
+		9B15752B1CC8CBE10064B8A5 /* MyColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyColorPickerView.h; path = Colorful/MyColorPickerView.h; sourceTree = SOURCE_ROOT; };
+		9B15752C1CC8CBE10064B8A5 /* MyColorPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyColorPickerView.m; path = Colorful/MyColorPickerView.m; sourceTree = SOURCE_ROOT; };
+		9B15752E1CC9F4970064B8A5 /* ColorfulBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorfulBoardViewController.h; path = Colorful/ColorfulBoardViewController.h; sourceTree = SOURCE_ROOT; };
+		9B15752F1CC9F4970064B8A5 /* ColorfulBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColorfulBoardViewController.m; path = Colorful/ColorfulBoardViewController.m; sourceTree = SOURCE_ROOT; };
+		9B1575311CC9F4F20064B8A5 /* ColorMathViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorMathViewController.h; path = Colorful/ColorMathViewController.h; sourceTree = SOURCE_ROOT; };
+		9B1575321CC9F4F20064B8A5 /* ColorMathViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColorMathViewController.m; path = Colorful/ColorMathViewController.m; sourceTree = SOURCE_ROOT; };
+		9B2BB54E1F493AF3002E6F5E /* ColorPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorPreviewViewController.h; path = Colorful/ColorPreviewViewController.h; sourceTree = SOURCE_ROOT; };
+		9B2BB54F1F493AF3002E6F5E /* ColorPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColorPreviewViewController.m; path = Colorful/ColorPreviewViewController.m; sourceTree = SOURCE_ROOT; };
+		9B2ED78C1CE9C27800BE2C71 /* UIImage+PixelColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+PixelColor.h"; sourceTree = "<group>"; };
+		9B2ED78D1CE9C27800BE2C71 /* UIImage+PixelColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+PixelColor.m"; sourceTree = "<group>"; };
+		9B53BA301D12A58700DA78B9 /* ZoomImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZoomImageViewController.h; path = Colorful/ZoomImageViewController.h; sourceTree = SOURCE_ROOT; };
+		9B53BA311D12A58700DA78B9 /* ZoomImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZoomImageViewController.m; path = Colorful/ZoomImageViewController.m; sourceTree = SOURCE_ROOT; };
+		9B57F8DB1F4962A700FDBBBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9B57F8DD1F4962A800FDBBBD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9B57F8DE1F49633800FDBBBD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		9B57F8DF1F49633800FDBBBD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		9B57F8E01F49633800FDBBBD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		9B57F8E11F49633F00FDBBBD /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		9B57F8E21F49633F00FDBBBD /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		9B57F8E31F49633F00FDBBBD /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		9B6B1C681CDC90760013BA9E /* CameraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraView.h; sourceTree = "<group>"; };
+		9B6B1C691CDC90760013BA9E /* CameraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraView.m; sourceTree = "<group>"; };
+		9B7747AD1CD85B8200416BE3 /* CameraCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CameraCenterViewController.h; path = Colorful/CameraCenterViewController.h; sourceTree = SOURCE_ROOT; };
+		9B7747AE1CD85B8200416BE3 /* CameraCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CameraCenterViewController.m; path = Colorful/CameraCenterViewController.m; sourceTree = SOURCE_ROOT; };
+		9B7747C41CD8A40200416BE3 /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CircleView.h; path = Colorful/CircleView.h; sourceTree = SOURCE_ROOT; };
+		9B7747C51CD8A40200416BE3 /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CircleView.m; path = Colorful/CircleView.m; sourceTree = SOURCE_ROOT; };
+		9B8079A91D07D649007260A3 /* UITextField+textRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+textRange.h"; sourceTree = "<group>"; };
+		9B8079AA1D07D649007260A3 /* UITextField+textRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+textRange.m"; sourceTree = "<group>"; };
+		9BAC02351D0148E5002D56AB /* RadialLayer-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "RadialLayer-Info.plist"; sourceTree = "<group>"; };
+		9BAC02371D016648002D56AB /* UITabBarItem+CustomBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+CustomBadge.h"; sourceTree = "<group>"; };
+		9BAC02381D016648002D56AB /* UITabBarItem+CustomBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+CustomBadge.m"; sourceTree = "<group>"; };
+		9BAC023A1D019122002D56AB /* ColorMathDetailCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorMathDetailCellView.h; path = Colorful/ColorMathDetailCellView.h; sourceTree = SOURCE_ROOT; };
+		9BAC023B1D019122002D56AB /* ColorMathDetailCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColorMathDetailCellView.m; path = Colorful/ColorMathDetailCellView.m; sourceTree = SOURCE_ROOT; };
+		9BB5358B1CE584A800419119 /* tabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tabBarViewController.h; path = Colorful/tabBarViewController.h; sourceTree = SOURCE_ROOT; };
+		9BB5358C1CE584A800419119 /* tabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = tabBarViewController.m; path = Colorful/tabBarViewController.m; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		9BB5358E1CE5A85A00419119 /* HexTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HexTableViewController.h; path = Colorful/HexTableViewController.h; sourceTree = SOURCE_ROOT; };
+		9BB5358F1CE5A85A00419119 /* HexTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HexTableViewController.m; path = Colorful/HexTableViewController.m; sourceTree = SOURCE_ROOT; };
+		9BB535911CE5AC9D00419119 /* HexTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HexTableViewCell.h; path = Colorful/HexTableViewCell.h; sourceTree = SOURCE_ROOT; };
+		9BB535921CE5AC9D00419119 /* HexTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HexTableViewCell.m; path = Colorful/HexTableViewCell.m; sourceTree = SOURCE_ROOT; };
+		9BB535941CE5DC7C00419119 /* PublicMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicMethod.h; sourceTree = "<group>"; };
+		9BB535951CE5DC7C00419119 /* PublicMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublicMethod.m; sourceTree = "<group>"; };
+		9BC1D53E1D224B1A00EF2958 /* PixImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PixImageViewController.h; path = Colorful/PixImageViewController.h; sourceTree = SOURCE_ROOT; };
+		9BC1D53F1D224B1A00EF2958 /* PixImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PixImageViewController.m; path = Colorful/PixImageViewController.m; sourceTree = SOURCE_ROOT; };
+		9BC1D5431D225BB300EF2958 /* blur_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blur_image.jpg; sourceTree = "<group>"; };
+		9BC1D5451D225C9D00EF2958 /* MagnifierView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagnifierView.h; sourceTree = "<group>"; };
+		9BC1D5461D225C9D00EF2958 /* MagnifierView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagnifierView.m; sourceTree = "<group>"; };
+		9BC1D5481D22659700EF2958 /* UIView+ColorOfPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ColorOfPoint.h"; sourceTree = "<group>"; };
+		9BC1D5491D22659700EF2958 /* UIView+ColorOfPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ColorOfPoint.m"; sourceTree = "<group>"; };
+		9BDF15D123CF0B7700A50B70 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		E8815E1CCF5B5E92C5C81C0E /* Pods-colorful.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-colorful.debug.xcconfig"; path = "Pods/Target Support Files/Pods-colorful/Pods-colorful.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B1574E61CC8AB690064B8A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BDF15D223CF0B7700A50B70 /* ExternalAccessory.framework in Frameworks */,
+				9B0160702212D87D005DE6E6 /* libc++.tbd in Frameworks */,
+				9B01606E2212D871005DE6E6 /* libz.tbd in Frameworks */,
+				9B01606C2212D862005DE6E6 /* Security.framework in Frameworks */,
+				9B01606A2212D859005DE6E6 /* SystemConfiguration.framework in Frameworks */,
+				6F8CE9559555F7A61A8E4770 /* libPods-colorful.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6DDFB412DBB7991716ABF5AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BDF15D123CF0B7700A50B70 /* ExternalAccessory.framework */,
+				9B01606F2212D87D005DE6E6 /* libc++.tbd */,
+				9B01606D2212D871005DE6E6 /* libz.tbd */,
+				9B01606B2212D862005DE6E6 /* Security.framework */,
+				9B0160692212D859005DE6E6 /* SystemConfiguration.framework */,
+				39CCB32176ED6F0B855FC019 /* libPods-colorful.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B055D0D2031852800BFB59F /* ColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D1A2031852800BFB59F /* HRBrightnessCursor.h */,
+				9B055D142031852800BFB59F /* HRBrightnessCursor.m */,
+				9B055D112031852800BFB59F /* HRBrightnessSlider.h */,
+				9B055D182031852800BFB59F /* HRBrightnessSlider.m */,
+				9B055D0F2031852800BFB59F /* HRColorCursor.h */,
+				9B055D162031852800BFB59F /* HRColorCursor.m */,
+				9B055D1D2031852800BFB59F /* HRColorInfoView.h */,
+				9B055D152031852800BFB59F /* HRColorInfoView.m */,
+				9B055D0E2031852800BFB59F /* HRColorMapView.h */,
+				9B055D172031852800BFB59F /* HRColorMapView.m */,
+				9B055D1C2031852800BFB59F /* HRColorPickerView.h */,
+				9B055D122031852800BFB59F /* HRColorPickerView.m */,
+				9B055D192031852800BFB59F /* HRHSVColorUtil.h */,
+				9B055D102031852800BFB59F /* HRHSVColorUtil.m */,
+				9B055D132031852800BFB59F /* UIImage+CoreGraphics.h */,
+				9B055D1B2031852800BFB59F /* UIImage+CoreGraphics.m */,
+			);
+			path = ColorPicker;
+			sourceTree = "<group>";
+		};
+		9B055D26203186B000BFB59F /* ColorName */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D27203186B000BFB59F /* DBColorNames.h */,
+				9B055D28203186B000BFB59F /* DBColorNames.m */,
+			);
+			path = ColorName;
+			sourceTree = "<group>";
+		};
+		9B1574E01CC8AB690064B8A5 = {
+			isa = PBXGroup;
+			children = (
+				9B055D0D2031852800BFB59F /* ColorPicker */,
+				9B1574EB1CC8AB690064B8A5 /* Colorful */,
+				9B1575251CC8B4880064B8A5 /* Helper */,
+				9B15751C1CC8AF650064B8A5 /* Category */,
+				9B1574EA1CC8AB690064B8A5 /* Products */,
+				EF3FDC0C87A55731C4D2BE11 /* Pods */,
+				6DDFB412DBB7991716ABF5AE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9B1574EA1CC8AB690064B8A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B1574E91CC8AB690064B8A5 /* Reality Color.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B1574EB1CC8AB690064B8A5 /* Colorful */ = {
+			isa = PBXGroup;
+			children = (
+				9B2ED78F1CE9CC0200BE2C71 /* MagnifierView */,
+				9B6B1C671CDC90600013BA9E /* CameraView */,
+				9B1574EF1CC8AB690064B8A5 /* AppDelegate.h */,
+				9B1574F01CC8AB690064B8A5 /* AppDelegate.m */,
+				9BB5358B1CE584A800419119 /* tabBarViewController.h */,
+				9BB5358C1CE584A800419119 /* tabBarViewController.m */,
+				9B7747AD1CD85B8200416BE3 /* CameraCenterViewController.h */,
+				9B7747AE1CD85B8200416BE3 /* CameraCenterViewController.m */,
+				9BB5358E1CE5A85A00419119 /* HexTableViewController.h */,
+				9BB5358F1CE5A85A00419119 /* HexTableViewController.m */,
+				9BB535911CE5AC9D00419119 /* HexTableViewCell.h */,
+				9BB535921CE5AC9D00419119 /* HexTableViewCell.m */,
+				9B1575311CC9F4F20064B8A5 /* ColorMathViewController.h */,
+				9B1575321CC9F4F20064B8A5 /* ColorMathViewController.m */,
+				9B15752E1CC9F4970064B8A5 /* ColorfulBoardViewController.h */,
+				9B15752F1CC9F4970064B8A5 /* ColorfulBoardViewController.m */,
+				9B15752B1CC8CBE10064B8A5 /* MyColorPickerView.h */,
+				9B15752C1CC8CBE10064B8A5 /* MyColorPickerView.m */,
+				9B2BB54E1F493AF3002E6F5E /* ColorPreviewViewController.h */,
+				9B2BB54F1F493AF3002E6F5E /* ColorPreviewViewController.m */,
+				9BAC023A1D019122002D56AB /* ColorMathDetailCellView.h */,
+				9BAC023B1D019122002D56AB /* ColorMathDetailCellView.m */,
+				9B53BA301D12A58700DA78B9 /* ZoomImageViewController.h */,
+				9B53BA311D12A58700DA78B9 /* ZoomImageViewController.m */,
+				9BC1D53E1D224B1A00EF2958 /* PixImageViewController.h */,
+				9BC1D53F1D224B1A00EF2958 /* PixImageViewController.m */,
+				9B1574F51CC8AB690064B8A5 /* Main.storyboard */,
+				9B1574F81CC8AB690064B8A5 /* Assets.xcassets */,
+				9B1574FA1CC8AB690064B8A5 /* LaunchScreen.storyboard */,
+				9B1574FD1CC8AB690064B8A5 /* Info.plist */,
+				9B1574EC1CC8AB690064B8A5 /* Supporting Files */,
+				9B1575241CC8B1290064B8A5 /* Colorful.pch */,
+			);
+			name = Colorful;
+			path = colorful;
+			sourceTree = "<group>";
+		};
+		9B1574EC1CC8AB690064B8A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BAC02341D0148E5002D56AB /* Resource */,
+				9B1574ED1CC8AB690064B8A5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9B15751C1CC8AF650064B8A5 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				9B8079A91D07D649007260A3 /* UITextField+textRange.h */,
+				9B8079AA1D07D649007260A3 /* UITextField+textRange.m */,
+				9BAC02371D016648002D56AB /* UITabBarItem+CustomBadge.h */,
+				9BAC02381D016648002D56AB /* UITabBarItem+CustomBadge.m */,
+				9B15751E1CC8AF650064B8A5 /* UIColor+HexString.h */,
+				9B15751F1CC8AF650064B8A5 /* UIColor+HexString.m */,
+				9B1575201CC8AF650064B8A5 /* UIView+Extension.h */,
+				9B1575211CC8AF650064B8A5 /* UIView+Extension.m */,
+				9B2ED78C1CE9C27800BE2C71 /* UIImage+PixelColor.h */,
+				9B2ED78D1CE9C27800BE2C71 /* UIImage+PixelColor.m */,
+				9BC1D5481D22659700EF2958 /* UIView+ColorOfPoint.h */,
+				9BC1D5491D22659700EF2958 /* UIView+ColorOfPoint.m */,
+				9BB535941CE5DC7C00419119 /* PublicMethod.h */,
+				9BB535951CE5DC7C00419119 /* PublicMethod.m */,
+				9B055D2A20318FD400BFB59F /* UIViewController+Helper.h */,
+				9B055D2B20318FD400BFB59F /* UIViewController+Helper.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		9B1575251CC8B4880064B8A5 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D26203186B000BFB59F /* ColorName */,
+				9B1575261CC8B4880064B8A5 /* APPHeader.h */,
+				9B1575271CC8B4880064B8A5 /* GTCommontHeader.h */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		9B2ED78F1CE9CC0200BE2C71 /* MagnifierView */ = {
+			isa = PBXGroup;
+			children = (
+				9BC1D5451D225C9D00EF2958 /* MagnifierView.h */,
+				9BC1D5461D225C9D00EF2958 /* MagnifierView.m */,
+			);
+			path = MagnifierView;
+			sourceTree = SOURCE_ROOT;
+		};
+		9B6B1C671CDC90600013BA9E /* CameraView */ = {
+			isa = PBXGroup;
+			children = (
+				9B6B1C681CDC90760013BA9E /* CameraView.h */,
+				9B6B1C691CDC90760013BA9E /* CameraView.m */,
+				9B7747C41CD8A40200416BE3 /* CircleView.h */,
+				9B7747C51CD8A40200416BE3 /* CircleView.m */,
+			);
+			name = CameraView;
+			path = Colorful/CameraView;
+			sourceTree = SOURCE_ROOT;
+		};
+		9BAC02341D0148E5002D56AB /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				9BC1D5431D225BB300EF2958 /* blur_image.jpg */,
+				9BAC02351D0148E5002D56AB /* RadialLayer-Info.plist */,
+				9B57F8DC1F4962A700FDBBBD /* InfoPlist.strings */,
+			);
+			path = Resource;
+			sourceTree = SOURCE_ROOT;
+		};
+		EF3FDC0C87A55731C4D2BE11 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8815E1CCF5B5E92C5C81C0E /* Pods-colorful.debug.xcconfig */,
+				50D203B6D7DED94C7817D9A2 /* Pods-colorful.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B1574E81CC8AB690064B8A5 /* RealityColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B1575001CC8AB690064B8A5 /* Build configuration list for PBXNativeTarget "RealityColor" */;
+			buildPhases = (
+				697E806CBC54A06AD3FAF2BF /* [CP] Check Pods Manifest.lock */,
+				9B1574E51CC8AB690064B8A5 /* Sources */,
+				9B1574E61CC8AB690064B8A5 /* Frameworks */,
+				9B1574E71CC8AB690064B8A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RealityColor;
+			productName = colorful;
+			productReference = 9B1574E91CC8AB690064B8A5 /* Reality Color.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B1574E11CC8AB690064B8A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Lee;
+				TargetAttributes = {
+					9B1574E81CC8AB690064B8A5 = {
+						CreatedOnToolsVersion = 7.3;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 9B1574E41CC8AB690064B8A5 /* Build configuration list for PBXProject "RealityColor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = 9B1574E01CC8AB690064B8A5;
+			productRefGroup = 9B1574EA1CC8AB690064B8A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B1574E81CC8AB690064B8A5 /* RealityColor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B1574E71CC8AB690064B8A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B1574FC1CC8AB690064B8A5 /* LaunchScreen.storyboard in Resources */,
+				9B57F8DA1F4962A700FDBBBD /* InfoPlist.strings in Resources */,
+				9B1574F91CC8AB690064B8A5 /* Assets.xcassets in Resources */,
+				9B1574F71CC8AB690064B8A5 /* Main.storyboard in Resources */,
+				9BAC02361D0148E5002D56AB /* RadialLayer-Info.plist in Resources */,
+				9BC1D5441D225BB300EF2958 /* blur_image.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		697E806CBC54A06AD3FAF2BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-colorful-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B1574E51CC8AB690064B8A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B7747AF1CD85B8200416BE3 /* CameraCenterViewController.m in Sources */,
+				9B2BB5501F493AF3002E6F5E /* ColorPreviewViewController.m in Sources */,
+				9B055D29203186B000BFB59F /* DBColorNames.m in Sources */,
+				9B055D1F2031852800BFB59F /* HRColorPickerView.m in Sources */,
+				9B1575231CC8AF650064B8A5 /* UIView+Extension.m in Sources */,
+				9BC1D5401D224B1A00EF2958 /* PixImageViewController.m in Sources */,
+				9B055D252031852800BFB59F /* UIImage+CoreGraphics.m in Sources */,
+				9B055D242031852800BFB59F /* HRBrightnessSlider.m in Sources */,
+				9B055D222031852800BFB59F /* HRColorCursor.m in Sources */,
+				9B1575301CC9F4970064B8A5 /* ColorfulBoardViewController.m in Sources */,
+				9B055D232031852800BFB59F /* HRColorMapView.m in Sources */,
+				9B055D2C20318FD400BFB59F /* UIViewController+Helper.m in Sources */,
+				9B15752D1CC8CBE10064B8A5 /* MyColorPickerView.m in Sources */,
+				9B53BA321D12A58700DA78B9 /* ZoomImageViewController.m in Sources */,
+				9B2ED78E1CE9C27800BE2C71 /* UIImage+PixelColor.m in Sources */,
+				9BB5358D1CE584A800419119 /* tabBarViewController.m in Sources */,
+				9BB535901CE5A85A00419119 /* HexTableViewController.m in Sources */,
+				9BC1D5471D225C9D00EF2958 /* MagnifierView.m in Sources */,
+				9BC1D54A1D22659700EF2958 /* UIView+ColorOfPoint.m in Sources */,
+				9B055D212031852800BFB59F /* HRColorInfoView.m in Sources */,
+				9B8079AB1D07D649007260A3 /* UITextField+textRange.m in Sources */,
+				9B055D202031852800BFB59F /* HRBrightnessCursor.m in Sources */,
+				9BAC02391D016648002D56AB /* UITabBarItem+CustomBadge.m in Sources */,
+				9B1575331CC9F4F20064B8A5 /* ColorMathViewController.m in Sources */,
+				9BB535931CE5AC9D00419119 /* HexTableViewCell.m in Sources */,
+				9B1574F11CC8AB690064B8A5 /* AppDelegate.m in Sources */,
+				9BB535961CE5DC7C00419119 /* PublicMethod.m in Sources */,
+				9B7747C61CD8A40200416BE3 /* CircleView.m in Sources */,
+				9B055D1E2031852800BFB59F /* HRHSVColorUtil.m in Sources */,
+				9B1575221CC8AF650064B8A5 /* UIColor+HexString.m in Sources */,
+				9B1574EE1CC8AB690064B8A5 /* main.m in Sources */,
+				9BAC023C1D019122002D56AB /* ColorMathDetailCellView.m in Sources */,
+				9B6B1C6A1CDC90760013BA9E /* CameraView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9B1574F51CC8AB690064B8A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B1574F61CC8AB690064B8A5 /* Base */,
+				9B57F8DE1F49633800FDBBBD /* zh-Hans */,
+				9B57F8E11F49633F00FDBBBD /* zh-Hant */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B1574FA1CC8AB690064B8A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B1574FB1CC8AB690064B8A5 /* Base */,
+				9B57F8DF1F49633800FDBBBD /* zh-Hans */,
+				9B57F8E21F49633F00FDBBBD /* zh-Hant */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9B57F8DC1F4962A700FDBBBD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B57F8DB1F4962A700FDBBBD /* Base */,
+				9B57F8DD1F4962A800FDBBBD /* en */,
+				9B57F8E01F49633800FDBBBD /* zh-Hans */,
+				9B57F8E31F49633F00FDBBBD /* zh-Hant */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B1574FE1CC8AB690064B8A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B1574FF1CC8AB690064B8A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B1575011CC8AB690064B8A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8815E1CCF5B5E92C5C81C0E /* Pods-colorful.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = colorful/Hex.tool.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.2.40115;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Colorful/Colorful.pch";
+				INFOPLIST_FILE = colorful/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.2.4;
+				PLIST_FILE_OUTPUT_FORMAT = XML;
+				PRODUCT_BUNDLE_IDENTIFIER = com.roland.realitycolor;
+				PRODUCT_MODULE_NAME = HexTool;
+				PRODUCT_NAME = "Reality Color";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B1575021CC8AB690064B8A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50D203B6D7DED94C7817D9A2 /* Pods-colorful.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = colorful/Hex.tool.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.2.40115;
+				DEVELOPMENT_TEAM = H22JXJQXLL;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Colorful/Colorful.pch";
+				INFOPLIST_FILE = colorful/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.2.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.roland.realitycolor;
+				PRODUCT_MODULE_NAME = HexTool;
+				PRODUCT_NAME = "Reality Color";
+				PROVISIONING_PROFILE_SPECIFIER = "distribution colorful pp";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B1574E41CC8AB690064B8A5 /* Build configuration list for PBXProject "RealityColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B1574FE1CC8AB690064B8A5 /* Debug */,
+				9B1574FF1CC8AB690064B8A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B1575001CC8AB690064B8A5 /* Build configuration list for PBXNativeTarget "RealityColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B1575011CC8AB690064B8A5 /* Debug */,
+				9B1575021CC8AB690064B8A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B1574E11CC8AB690064B8A5 /* Project object */;
+}

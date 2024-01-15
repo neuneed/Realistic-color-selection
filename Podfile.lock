@@ -1,0 +1,30 @@
+PODS:
+  - Colours (5.13.0):
+    - Colours/ObjC (= 5.13.0)
+  - Colours/ObjC (5.13.0)
+  - iCarousel (1.8.3)
+  - Masonry (1.1.0)
+  - MGSwipeTableCell (1.6.11)
+
+DEPENDENCIES:
+  - Colours
+  - iCarousel
+  - Masonry
+  - MGSwipeTableCell
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Colours
+    - iCarousel
+    - Masonry
+    - MGSwipeTableCell
+
+SPEC CHECKSUMS:
+  Colours: f24220c38f13deac88612667e9b4a7fb96b871d4
+  iCarousel: d782f635afac190c49bb8ee455882284cff8b85f
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MGSwipeTableCell: b804e4e450dee439c42250be90bd50458bf67fce
+
+PODFILE CHECKSUM: edb8da6696c67ff0bbb9b9e8fa2791f0a5389b28
+
+COCOAPODS: 1.13.0

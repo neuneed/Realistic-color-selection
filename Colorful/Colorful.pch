@@ -1,0 +1,25 @@
+//
+//  Colorful.pch
+//  Colorful
+//
+//  Created by lee on 16/4/21.
+//  Copyright © 2016年 Lee. All rights reserved.
+//
+
+#ifndef Colorful_pch
+#define Colorful_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "GTCommontHeader.h"
+#import "UIColor+HexString.h"
+#import "UIView+Extension.h"
+#import "AppHeader.h"
+#import "Masonry.h"
+#import "PublicMethod.h"
+#import "Colours.h"
+#import "UIView+ColorOfPoint.h"
+#import "UIViewController+Helper.h"
+
+#endif /* Colorful_pch */
